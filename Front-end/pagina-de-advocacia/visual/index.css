@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Calibri;
+}
+.barra-topo {
+  border-bottom: 1px solid #d3d3d3;
+}
+.secao-largura-limitada {
+  width: 800px;
+  margin: 0 auto;
+}
+.barra-topo p {
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+h1,
+h2 {
+  margin: 0;
+}
+.secao-background-capa {
+  min-height: 500px;
+  background-image: url("capa.jpg");
+  background-size: cover;
+}
+.secao-background-conteudo {
+  text-align: right;
+}
+.secao-conteudo img {
+  width: 250px;
+  height: 180px;
+}
+.secao-conteudo span {
+  border-left: 1px solid #000000;
+  padding-left: 5px;
+  font-size: 20px;
+}
+.secao-conteudo {
+  padding: 50px 20px;
+}
+.secao-divisor {
+  background-image: url("fundo.jpg");
+  padding: 50px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.secao-divisor h3 {
+  font-size: 36px;
+  text-align: center;
+  background-color: #fff;
+  margin: 0 auto;
+  width: 200px;
+  border-radius: 20px;
+}

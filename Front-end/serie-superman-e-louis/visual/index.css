@@ -1,0 +1,77 @@
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+.largura-tela {
+  width: 100%;
+}
+.barra-cor {
+  background-color: #4710c1;
+}
+.barra-topo {
+  position: fixed;
+}
+.barra-topo div {
+  padding: 20px 0;
+}
+.inicio {
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+}
+.inicio:hover {
+  background-color: #3504a7;
+  padding: 7px 15px;
+  border-radius: 20px;
+  margin: 0 7px;
+}
+
+.barra-topo span {
+  padding: 0 30px;
+}
+.barra-topo span a {
+  padding: 7px 15px;
+  background-color: white;
+  color: #4710c1;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 0 7px;
+}
+.barra-topo span a:hover {
+  background-color: #3504a7;
+  color: white;
+}
+.secao {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+.img-capa img {
+  background-size: cover;
+  margin: 0;
+  min-width: 100%;
+  max-width: 1024px;
+}
+h2 {
+  text-align: center;
+}
+.conteudo {
+  line-height: 30px;
+}
+.galeria {
+  display: flex;
+  overflow-x: scroll;
+  margin: 0 auto 20px auto;
+}
+.galeria img {
+  width: 315px;
+  margin: 10px;
+  box-shadow: 10px 10px 10px #939393;
+}
+.rodape {
+  padding: 5px 0;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
